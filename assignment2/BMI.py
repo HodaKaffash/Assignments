@@ -7,7 +7,7 @@ if(BMI>0):
         print("You are very underweight,you may need to put on some weight. You are recommended to ask your doctor or a dietitian for advice.")
     elif(BMI<=18.5):
         print("You are underweight,You are recommended to ask your doctor or a dietitian for advice")
-    elif(BMI<=25):
+    elif(BMI<=24.5):
         print("you are at a healthy weight for your height. By maintaining a healthy weight, you lower your risk of developing serious health problems.")
     elif(BMI<=30):
         print("you are slightly overweight. You may be advised to lose some weight for health reasons. You are recommended to talk to your doctor or a dietitian for advice.")
