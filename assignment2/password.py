@@ -1,8 +1,8 @@
 count=0
-while count < 4:
+while count <= 3:
     psw=2000
     username = input(' please enter username: ')
-    password = input('please enter password: ')
+    password = int(input('please enter password: '))
     if password==psw and username=='hodakf':
         print('Access granted')
         break
