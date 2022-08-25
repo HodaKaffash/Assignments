@@ -31,8 +31,7 @@ while i< user_counter:
       elif operation == '*':
          print('{} * {} = '.format(number_1, number_2))
          print(number_1 * number_2)
-         
-
+       
       elif operation == '/':
          if(number_2==0):
             print('can not divide by zero.')
@@ -40,8 +39,7 @@ while i< user_counter:
          else:
             divi=number_1/number_2
             print('{} / {} = '.format(number_1, number_2))
-            print(number_1 / number_2)
-            
+            print(number_1 / number_2)    
       
       elif operation == '//':
          if(number_2==0):
@@ -51,12 +49,10 @@ while i< user_counter:
             print('{} // {} = '.format(number_1, number_2))
             print(number_1 // number_2) 
             
-      
       elif operation == '%':
          print('{} % {} = '.format(number_1, number_2))
          print(number_1 % number_2) 
         
-      
       else:
          print('{} ** {} = '.format(number_1, number_2))
          print(number_1 ** number_2)
@@ -68,33 +64,25 @@ while i< user_counter:
          radical = math.sqrt(number_1)
          print('radical of number:',radical)
          
-      
       elif operation=="fact":
          fact=math.factorial(number_1)
-         print('factorial of number:',fact)
-         
+         print('factorial of number:',fact)         
        
       elif operation=="sin":
          sin=math.sin(number_1)
          print('sin of number:',sin)
-         
-         
+                  
       elif operation=="cos":
          cos=math.cos(number_1)
          print('cos of number:',cos)
-          
          
       elif operation=="tan":
          tan=math.tan(number_1)
          print('tan of number:',tan)
-         
-         
+       
       else:
          cot=math.cot(number_1)
          print('cot of number:',sin) 
          i=i+1  
    else:
       print('You have not typed a valid operator.')
-
-     
-   
